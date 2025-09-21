@@ -1,0 +1,42 @@
+    h1 {
+        color: rgb(3, 9, 125);
+        font-size: 60px;
+    }
+
+    body {
+        background-color: antiquewhite;
+    }
+
+    /*this over-writes the above h1 selector*/
+    .subtitle {
+        font-size: 60px;
+    }
+
+    #surname {
+        color: rgb(20, 97, 79);
+        font-family: 'Times New Roman', serif;
+
+    }
+
+    div p {
+        color: blueviolet;
+        font-size: 10px;
+    }
+
+    p,
+    .subtitle {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+/*    div {
+        background-color: rgb(172, 236, 255);
+width: 200px;
+border: 1px solid pink
+padding: 20px;
+} */
+ 
+.responsive {
+    background-color: rgb(169, 255, 202);
+    height: 50vh;
+    width: 50vw;
+
+}
